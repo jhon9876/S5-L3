@@ -7,31 +7,34 @@
 .flexBox {
   display: flex;
 }
-.navBarStyle {
-  width: 10%;
-  height: 20%;
-  font-size: 20px;
-  border: 3px;
-  border-radius: 100px;
-  background-color: yellow;
-  text-align: center;
-}
 
-.centralBotton {
-  width: 30%;
-  height: 30%;
+img {
+  width: 180px;
+  height: 80px;
 }
 
 nav {
-  height: 250px;
-  justify-content: space-evenly;
+  height: 200px;
+  justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
-div img {
-  width: 15%;
+.buttonStyle {
+  width: 10%;
+  height: 60px;
+  border: 1px solid red;
+  border-radius: 100px;
+  background-color: yellow;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
 }
 
-.bigBotton {
-  justify-content: flex-start;
+.bigButton {
+  max-height: unset;
+  width: 300px;
+  height: 150px;
+  justify-content: space-between;
+  align-items: center;
 }
