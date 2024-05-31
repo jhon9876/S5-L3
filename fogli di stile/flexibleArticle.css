@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.containerDesktop div img {
+  height: 100%;
+  width: 100%;
+}
+
+.text {
+  height: 100%;
+  width: 50%;
+}
+
+/* small screen (phone) */
+@media screen and (max-width: 575px) {
+  .containerDesktop {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text h2,
+  p {
+    text-align: center;
+  }
+}
+/* medium screen (tablet) */
+@media screen and (min-width: 578px) {
+  .containerDesktop {
+    display: flex;
+  }
+}
+/* large screen (desktop) */
+@media screen and (min-width: 1200px) {
+  .containerDesktop {
+    display: flex;
+  }
+}
