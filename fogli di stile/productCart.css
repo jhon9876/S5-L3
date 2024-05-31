@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+}
+
+main {
+  text-align: center;
+}
+
+main img {
+  border-top-left-radius: 250px;
+  border-top-right-radius: 250px;
+  height: 700px;
+  width: 700px;
+  margin-bottom: 20px;
+}
+
+.flex-box {
+  display: flex;
+}
+.productCardText {
+  color: red;
+  font-size: 30px;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+}
+
+#addToCartButton {
+  margin-top: 20px;
+  height: 50px;
+  width: 350px;
+  border-radius: 100px;
+  background-color: #f3df85;
+  font-size: 30px;
+}

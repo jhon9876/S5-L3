@@ -1,0 +1,37 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.flexBox {
+  display: flex;
+}
+.navBarStyle {
+  width: 10%;
+  height: 20%;
+  font-size: 20px;
+  border: 3px;
+  border-radius: 100px;
+  background-color: yellow;
+  text-align: center;
+}
+
+.centralBotton {
+  width: 30%;
+  height: 30%;
+}
+
+nav {
+  height: 250px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+div img {
+  width: 15%;
+}
+
+.bigBotton {
+  justify-content: flex-start;
+}
